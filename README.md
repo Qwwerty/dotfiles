@@ -1,4 +1,4 @@
-# Qwwerty's dotfiles
+# Qwerty's dotfiles
 
 ## Neovim setup
 
