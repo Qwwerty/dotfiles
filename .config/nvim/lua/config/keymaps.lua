@@ -36,3 +36,6 @@ keymap.set("n", "<C-w><down>", "<C-w>-")
 keymap.set("n", "<C-j>", function()
   vim.diagnostic.goto_next()
 end, opts)
+
+-- Client rest
+keymap.set("n", "<leader>rn", require("rest-nvim").run, opts)
