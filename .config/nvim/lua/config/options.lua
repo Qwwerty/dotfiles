@@ -4,6 +4,9 @@
 
 vim.opt.mouse = "a"
 
+-- Enable access to System Clipboard
+vim.opt.clipboard = "unnamed,unnamedplus"
+
 -- Undercurl-- Not working on windows terminal
 vim.cmd([[let &t_Cs = "\e[4:3m]"]])
 vim.cmd([[let &t_Ce = "\e[4:0m]"]])
