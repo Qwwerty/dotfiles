@@ -10,3 +10,9 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.opt.conceallevel = 0
   end,
 })
+
+vim.api.nvim_create_user_command("TelescopeIgnoreNodeModules", function()
+  require("telescope.builtin").find_files({
+    file_ignore_patterns = { "node_modules/*" },
+  })
+end, {})

@@ -12,3 +12,4 @@ keymap.set("n", "ss", ":split<Return>", opts)
 keymap.set("n", "sv", ":vsplit<Return>", opts)
 
 keymap.set("n", ";r", ":Telescope live_grep<Return>")
+keymap.set("n", "<leader>ff", ":TelescopeIgnoreNodeModules<Return>")

@@ -44,3 +44,5 @@ vim.opt.splitbelow = true
 
 -- Put new windows right of current
 vim.opt.splitright = true
+
+vim.g.lazyvim_picker = "telescope"
