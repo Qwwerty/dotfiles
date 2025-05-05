@@ -46,3 +46,9 @@ vim.opt.splitbelow = true
 vim.opt.splitright = true
 
 vim.g.lazyvim_picker = "telescope"
+
+-- Use system clipboard
+vim.opt.clipboard = "unnamedplus"
+
+vim.opt.foldmethod = "indent" -- Use indentation levels for folding
+vim.opt.foldenable = true -- Enable folding
