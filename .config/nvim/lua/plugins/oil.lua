@@ -12,6 +12,9 @@ return {
   },
 
   config = function(_, opts)
+    opts.view_options = opts.view_options or {}
+    opts.view_options.show_hidden = true
+
     require("oil").setup(opts)
 
     vim.keymap.set("n", "<leader>o", "<cmd>Oil<cr>", { desc = "Abrir Oil" })
